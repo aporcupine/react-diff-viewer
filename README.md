@@ -265,6 +265,7 @@ const defaultStyles = {
   diffRemoved?: {}, // style object
   diffAdded?: {}, // style object
   marker?: {}, // style object
+  markerText?: {}, // style object
   emptyGutter?: {}, // style object
   highlightedLine?: {}, // style object
   lineNumber?: {}, // style object

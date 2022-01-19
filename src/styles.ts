@@ -12,6 +12,7 @@ export interface ReactDiffViewerStyles {
 	highlightedLine?: string;
 	lineNumber?: string;
 	marker?: string;
+	markerText?: string;
 	wordDiff?: string;
 	wordAdded?: string;
 	wordRemoved?: string;
@@ -61,6 +62,7 @@ export interface ReactDiffViewerStylesOverride {
 	diffRemoved?: Interpolation;
 	diffAdded?: Interpolation;
 	marker?: Interpolation;
+	markerText?: string;
 	emptyGutter?: Interpolation;
 	highlightedLine?: Interpolation;
 	lineNumber?: Interpolation;

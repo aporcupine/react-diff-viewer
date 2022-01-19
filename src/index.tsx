@@ -272,7 +272,7 @@ class DiffViewer extends React.Component<
 						[this.styles.diffRemoved]: removed,
 						[this.styles.highlightedLine]: highlightLine,
 					})}>
-					<pre>
+					<pre className={this.styles.markerText}>
 						{added && '+'}
 						{removed && '-'}
 					</pre>
